@@ -1,0 +1,22 @@
+server:
+  port: 10001
+  context-path: /case-demo
+
+basePath: http://www.case.app3:${server.port}${server.context-path}
+casServer: http://localhost:8080/cas
+casLogout: http://localhost:8080/cas/logout
+shiro:
+  shiroFilter:
+    loginUrl: ${casServer}/login?service=${basePath}/shiro-cas
+    FilterChainDefinitionMap:
+      /shiro-cas: casFilter
+      /sec/**: roles[ROLE_USER]
+      /**: anon
+  CasRealm:
+    defaultRoles: ROLE_USER
+    casServerUrlPrefix: ${casServer}
+    casService: ${basePath}/shiro-cas
+  casFilter:
+    name: casFilter
+    failureUrl: ${basePath}/merror
+    successUrl: ${basePath}/msuccess

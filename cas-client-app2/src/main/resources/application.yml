@@ -1,0 +1,27 @@
+sport: 10000
+demoa: www.cas.app2
+
+
+server:
+  port: ${sport}
+  context-path: /app2
+
+filter:
+  AuthenticationFilter:
+    casServerLoginUrl: http://localhost:8080/cas/login
+    serverName: http://${demoa}:${sport}
+  TicketValidationFilter:
+    casServerUrlPrefix: http://localhost:8080/cas
+    redirectAfterValidation: true
+    serverName: http://${demoa}:${sport}
+  FilterRegistrationBean:
+    initParameters:
+      casServerUrlPrefix: http://localhost:8080/cas
+      serverName: http://${demoa}:${sport}
+  AuthenticationFilterBean:
+    initParameters:
+      casServerLoginUrl: http://localhost:8080/cas/login
+      serverName: http://${demoa}:${sport}
+spring:
+  thymeleaf:
+    suffix: .html

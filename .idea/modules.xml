@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cas-client-app1/cas-client-app1.iml" filepath="$PROJECT_DIR$/cas-client-app1/cas-client-app1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cas-client-app1_main.iml" filepath="$PROJECT_DIR$/.idea/modules/cas-client-app1_main.iml" group="cas-client-app1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cas-client-app1_test.iml" filepath="$PROJECT_DIR$/.idea/modules/cas-client-app1_test.iml" group="cas-client-app1" />
+      <module fileurl="file://$PROJECT_DIR$/cas-client-app2/cas-client-app2.iml" filepath="$PROJECT_DIR$/cas-client-app2/cas-client-app2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cas-client-app2_main.iml" filepath="$PROJECT_DIR$/.idea/modules/cas-client-app2_main.iml" group="cas-client-app2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cas-client-app2_test.iml" filepath="$PROJECT_DIR$/.idea/modules/cas-client-app2_test.iml" group="cas-client-app2" />
+      <module fileurl="file://$PROJECT_DIR$/cas-shiro-app/cas-shiro-app.iml" filepath="$PROJECT_DIR$/cas-shiro-app/cas-shiro-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cas-shiro-app_main.iml" filepath="$PROJECT_DIR$/.idea/modules/cas-shiro-app_main.iml" group="cas-shiro-app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cas-shiro-app_test.iml" filepath="$PROJECT_DIR$/.idea/modules/cas-shiro-app_test.iml" group="cas-shiro-app" />
+    </modules>
+  </component>
+</project>

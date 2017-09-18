@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jasig.cas:cas-client-core:3.1.10">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jasig.cas/cas-client-core/3.1.10/b71a09db9267e6e7ef5f67d94d5bb0dea32d075d/cas-client-core-3.1.10.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jasig.cas/cas-client-core/3.1.10/ea75bc78a9650b8da2e2918852a597784491cb5e/cas-client-core-3.1.10-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
